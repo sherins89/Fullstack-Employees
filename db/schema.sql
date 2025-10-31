@@ -1,3 +1,9 @@
 DROP TABLE IF EXISTS employees;
 
-
+-- CREATE TABLES IN CAPS ONLY OR SQL ERROR -- 
+CREATE TABLE employees(
+    id SERIAL PRIMARY KEY,
+    name TEXT,
+    birthday DATE NOT NULL,
+    salary INTEGER NOT NULL
+);
